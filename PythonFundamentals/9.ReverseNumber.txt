@@ -1,0 +1,7 @@
+number=int(input("Enter a number:"))
+result=0;
+while number:
+    digit=int(number%10)
+    result=(result*10)+digit
+    number=int(number/10)
+print(result)
